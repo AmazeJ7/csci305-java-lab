@@ -1,15 +1,15 @@
 package main.java.csci305.javalab;
 
 /**
- * Element class
+ * Human player class
  * @author Johnny Gaddis
  */
 
-public abstract class Element{
+public abstract class Player{
 
   private String name;
 
-  public Element(String name){
+  public Player(String name){
     this.name = name;
   }
 
@@ -17,5 +17,7 @@ public abstract class Element{
     return name;
   }
 
-  public abstract Outcome compareTo(Element e);
+  public abstract Element Play(){
+    return new Element("", "");
+  }
 }

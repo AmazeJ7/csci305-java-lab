@@ -6,8 +6,9 @@ package main.java.csci305.javalab;
  */
 
 public class Rock extends Element{
-  public Rock(String name){
-    super(name);
+
+  public Rock(){
+    super("Rock");
   }
 
   @Override
