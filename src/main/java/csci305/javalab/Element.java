@@ -1,21 +1,24 @@
-package main.java.csci305.javalab;
+package csci305.javalab;
 
 /**
- * Element class
+ * Element class. Represents all possible elements in the game.
+ *
  * @author Johnny Gaddis
  */
 
-public abstract class Element{
+public abstract class Element {
 
-  private String name;
+    private String name; // Variable to store the name of the element
 
-  public Element(String name){
-    this.name = name;
-  }
+    public Element(String name) {
+        this.name = name;
+    }
 
-  public String getName(){
-    return name;
-  }
+    // Method to get the name of an element
+    public String getName() {
+        return name;
+    }
 
-  public abstract Outcome compareTo(Element e);
+    // Method to receive the outcome of a round
+    public abstract Outcome compareTo(Element e);
 }

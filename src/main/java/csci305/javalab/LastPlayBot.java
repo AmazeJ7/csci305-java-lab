@@ -1,28 +1,30 @@
-package main.java.csci305.javalab;
+package csci305.javalab;
 
 /**
- * StupidBot class
+ * LastPlayBot class. Plays what the other player played last.
+ *
  * @author Johnny Gaddis
  */
 
-public class LastPlayBot extends Player{
+public class LastPlayBot extends Player {
 
-  private Element last;
+    private Element last; // Element to keep track of the last played move
 
-  public LastPlayBot(){
-    super("LastPlayBot");
-  }
-
-  public lastPlay(Element e){
-    last = e;
-  }
-
-  @Override
-  public Element Play(){
-    if(last == null){
-      return new RandomBot().play();
-    } else {
-      return last;
+    public LastPlayBot() {
+        super("LastPlayBot");
     }
-  }
+
+    @Override
+    public void lastPlay(Element e) {
+        last = e;
+    }
+
+    @Override
+    public Element play() {
+        if (last == null) {
+            return new RandomBot().play();
+        } else {
+            return last;
+        }
+    }
 }

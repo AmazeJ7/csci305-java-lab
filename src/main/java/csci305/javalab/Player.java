@@ -1,23 +1,27 @@
-package main.java.csci305.javalab;
+package csci305.javalab;
 
 /**
  * Human player class
+ *
  * @author Johnny Gaddis
  */
 
-public abstract class Player{
+public abstract class Player {
 
-  private String name;
+    private String name; // Name representation
 
-  public Player(String name){
-    this.name = name;
-  }
+    public Player(String name) {
+        this.name = name;
+    }
 
-  public String getName(){
-    return name;
-  }
+    // Method to get a players name
+    public String getName() {
+        return name;
+    }
 
-  public abstract Element Play(){
-    return new Element("", "");
-  }
+    // Method to choose the next move
+    public abstract Element play();
+
+    // Method to store the opponents last move
+    public abstract void lastPlay(Element e);
 }
