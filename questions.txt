@@ -1,19 +1,19 @@
-1. LastPlayBot required me to add another method to the Player class. Once I did this I simply saved the opponents move using this method.
+1. LastPlayBot required me to add another method to the Player class. Once I did this I simply saved the opponents move using this method after both players choose their move. This lead to a simple last play implementation.
 
-2. I wanted my bot to be able to defeat amateur players and be able to trick people. To accomplish this I made the first play always be scissors to beat rock openings. Then, I play the move that beats the opponents next move assuming he plays the game in order like most amateurs do.
+2. I wanted MyBot to be able to defeat amateur players and be able to take advantage of iteration. To accomplish this I made the first play always be scissors to beat rock openings. Then, I play the move that beats the opponents next move assuming he plays the game in order like most amateurs do.
 
-3. Java's primitive types are assigned size at binding time. Java is statically typed because you must declare a type in advance before assigning to it. Because Java is statically typed it is considered a strongly typed language because it has stricter rules at compile time. Java allows user defined types to be used for increased functionality and OO ability. I knew this information from lecture!
+3. Java's primitive types are assigned size at binding time. Java is statically typed because you must declare a type in advance before assigning to it. Because Java is statically typed, it is considered a strongly typed language because it has stricter rules at compile time. Java allows user defined types to be used for increased functionality and OO ability. I knew this information from lecture!
 
 4. After a number of games, I find it hardest to beat the random bot. It is the best at beating any of the bots because of it's unpredictability. All the other bots I can beat on a regular basis.
 
-5. Because rock-paper-scissors-lizard-spock is a normal form game with equal outcomes there is no mathematical way of making a bot succeed. The only way to possibly gain an advantage is to assume something about the other player. Using my bot, noobs will most likely be beaten because I am assuming noobs are playing my game.
+5. Because rock-paper-scissors-lizard-spock is a normal form game with equal outcomes there is no mathematical way of making a bot succeed. The only way to possibly gain an advantage is to assume something about the other player. Using MyBot, amateurs will most likely be beaten because I am assuming these player are amateurs.
 
 6. I enjoy Java's integration with android programming as it is useful for quickly making apps. Other than this use and possibly JavaScript I won't be using Java.
 
-7. I absolutely hate static typing. After python, there is no going back to Java because of the added repetition.
+7. I absolutely hate static typing. After python, there is no going back to Java because of the added repetition of statically typing variables.
 
-8. Yes, it was a fun exercise to use OO programming and make a game. 
+8. Yes, it was a fun exercise to use OO programming and make a game. Practical implementations are always better than randomness. 
 
-9. 10
+9. 10 hours.
 
 10. I have taken two Java courses and have used it in my free time. 

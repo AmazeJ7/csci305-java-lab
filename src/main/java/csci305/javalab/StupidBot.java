@@ -13,10 +13,6 @@ public class StupidBot extends Player {
     }
 
     @Override
-    public void lastPlay(Element e) {
-    }
-
-    @Override
     public Element play() {
         return new Rock();
     }

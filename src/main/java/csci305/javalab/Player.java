@@ -23,5 +23,6 @@ public abstract class Player {
     public abstract Element play();
 
     // Method to store the opponents last move
-    public abstract void lastPlay(Element e);
+    public void lastPlay(Element e) {
+    }
 }

@@ -15,10 +15,6 @@ public class IterativeBot extends Player {
     }
 
     @Override
-    public void lastPlay(Element e) {
-    }
-
-    @Override
     public Element play() {
         String name = "";
         if (i > 4) {

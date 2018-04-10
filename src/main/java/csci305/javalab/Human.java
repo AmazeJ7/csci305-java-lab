@@ -16,10 +16,6 @@ public class Human extends Player {
     }
 
     @Override
-    public void lastPlay(Element e) {
-    }
-
-    @Override
     public Element play() {
         Scanner in = new Scanner(System.in);
         int n;

@@ -87,7 +87,7 @@ public class Main {
             } else if (p2.getName().equals("MyBot")) {
                 p2.lastPlay(e1);
             }
-            System.out.println("\nRound " + i + ":");
+            System.out.println("\nRound " + (i + 1) + ":");
             System.out.println("  Player 1 chose " + e1.getName());
             System.out.println("  Player 2 chose " + e2.getName());
             Outcome o = e1.compareTo(e2);

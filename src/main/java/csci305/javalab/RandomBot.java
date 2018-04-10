@@ -13,10 +13,6 @@ public class RandomBot extends Player {
     }
 
     @Override
-    public void lastPlay(Element e) {
-    }
-
-    @Override
     public Element play() {
         String name = "";
         int i = (int) (Math.random() * 5);
