@@ -15,8 +15,11 @@ public class Outcome{
     this.result = result;
   }
 
-  @Override
-  public String toString(){
+  public String getText(){
     return text;
+  }
+
+  public String getResult(){
+    return result;
   }
 }

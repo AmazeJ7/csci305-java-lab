@@ -6,9 +6,9 @@ package main.java.csci305.javalab;
  */
 
 public class Lizard extends Element{
-  
-  public Lizard(String name){
-    super(name);
+
+  public Lizard(){
+    super("Lizard");
   }
 
   @Override

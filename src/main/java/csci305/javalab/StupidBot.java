@@ -7,8 +7,8 @@ package main.java.csci305.javalab;
 
 public class StupidBot extends Player{
 
-  public StupidBot(String name){
-    super(name);
+  public StupidBot(){
+    super("StupidBot");
   }
 
   @Override

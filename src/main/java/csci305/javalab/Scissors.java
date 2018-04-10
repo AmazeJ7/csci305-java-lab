@@ -6,9 +6,9 @@ package main.java.csci305.javalab;
  */
 
 public class Scissors extends Element{
-  
-  public Scissors(String name){
-    super(name);
+
+  public Scissors(){
+    super("Scissors");
   }
 
   @Override

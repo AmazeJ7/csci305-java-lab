@@ -9,8 +9,8 @@ import java.util.Scanner;
 
 public class Human extends Player{
 
-  public Player(String name){
-    super(name);
+  public Human(){
+    super("Human");
   }
 
   @Override
@@ -26,37 +26,23 @@ public class Human extends Player{
     while(true){
       try{
         System.out.print("Enter your move: ");
-        input = in.nextInt();
+        line = in.nextInt();
           if(0 < input && input < 6){
-                break;
-            }
+            n = line;
+            break;
+          }
       }catch(InputMismatchException e){
         in.next();
       }
       System.out.println("Invalid move. Please try again.");
     }
-
-    switch(input){
-      case 1:
-        choice = Driver.moves.get("Rock");
-        break;
-      case 2:
-        choice = Driver.moves.get("Paper");
-        break;
-      case 3:
-        choice = Driver.moves.get("Scissors");
-        break;
-      case 4:
-        choice = Driver.moves.get("Lizard");
-        break;
-      case 5:
-        choice = Driver.moves.get("Spock");
-        break;
-      default:
-        break;
-    }
-
-    return choice;
+    switch(n){
+      case 1: return new Rock();
+      case 2: return new Paper();
+      case 3: return new Scissors();
+      case 4: return new Lizzard();
+      case 5: return new Spock();
+      default: return null;
     }
   }
 }

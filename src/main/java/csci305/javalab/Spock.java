@@ -6,9 +6,9 @@ package main.java.csci305.javalab;
  */
 
 public class Spock extends Element{
-  
-  public Spock(String name){
-    super(name);
+
+  public Spock(){
+    super("Spock");
   }
 
   @Override

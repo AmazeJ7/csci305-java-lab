@@ -7,8 +7,8 @@ package main.java.csci305.javalab;
 
 public class Paper extends Element{
 
-  public Paper(String name){
-    super(name);
+  public Paper(){
+    super("Paper");
   }
 
   @Override
